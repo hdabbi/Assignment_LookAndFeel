@@ -440,19 +440,40 @@ fieldset {
     padding: 100px 10%;
     display: flex;
     justify-content: space-between;
-    background: url("../img/breakfast.jpg") no-repeat center center / cover;
+    background: url("../img/bg-breakfast2.jpg") no-repeat center center / cover;
 }
 
-    .breakfast .text {
+.breakfast .text {
         text-align: center;
     }
 
         .breakfast .text:first-child h1 {
-            color: #fff;
+            color: pink;
         }
 
         .breakfast .text h2 {
-            color: #c8a593;
+            color: #fff;
+            margin-bottom: 50px;
+        }
+
+/* BREAKFAST1 */
+.breakfast1 {
+    padding: 100px 10%;
+    display: flex;
+    justify-content: space-between;
+    background: url("../img/hero-3.jpg") no-repeat center center / cover;
+}
+
+    .breakfast1 .text {
+        text-align: center;
+    }
+
+        .breakfast1 .text:first-child h1 {
+            color: pink;
+        }
+
+        .breakfast1 .text h2 {
+            color: #fff;
             margin-bottom: 50px;
         }
 
@@ -465,7 +486,7 @@ fieldset {
     }
 
     .bf-type p {
-        color: #c2beba;
+        color: #fff;
         margin-top: 0;
     }
 
